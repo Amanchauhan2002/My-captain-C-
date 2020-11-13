@@ -4,8 +4,7 @@ int main()
 {
 	double num1,num2,pro=0.0;
 	cout<<"Enter two number\n";
-	cin>>num1;
-	cin>>num2;
+	cin>>num1>>num2;
 	pro=num1*num2;
 	cout<<"The product of two numbers is\n "<<pro;
 	
